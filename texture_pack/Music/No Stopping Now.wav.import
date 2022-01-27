@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/No Stopping Now.wav-9b5ede3341021e2de753e7d1ab91b061.sample"
+
+[deps]
+
+source_file="res://texture_pack/Music/No Stopping Now.wav"
+dest_files=[ "res://.import/No Stopping Now.wav-9b5ede3341021e2de753e7d1ab91b061.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

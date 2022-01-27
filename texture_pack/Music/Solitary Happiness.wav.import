@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Solitary Happiness.wav-8d446fa1677679ac262a921a7db9dcd2.sample"
+
+[deps]
+
+source_file="res://texture_pack/Music/Solitary Happiness.wav"
+dest_files=[ "res://.import/Solitary Happiness.wav-8d446fa1677679ac262a921a7db9dcd2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

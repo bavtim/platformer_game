@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Menu_Sound_Unpause.wav-58f4199f97c0c00e2e45914999aaa138.sample"
+
+[deps]
+
+source_file="res://texture_pack/Sound/Menu_Sound_Unpause.wav"
+dest_files=[ "res://.import/Menu_Sound_Unpause.wav-58f4199f97c0c00e2e45914999aaa138.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

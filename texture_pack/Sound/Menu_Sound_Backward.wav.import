@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Menu_Sound_Backward.wav-e4f1e175252131463ad4a05721a47b2d.sample"
+
+[deps]
+
+source_file="res://texture_pack/Sound/Menu_Sound_Backward.wav"
+dest_files=[ "res://.import/Menu_Sound_Backward.wav-e4f1e175252131463ad4a05721a47b2d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

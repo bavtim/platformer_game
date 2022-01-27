@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Menu_Sound_Forward.wav-0a35c6f5640d5aecfdc3a1db1f7aa343.sample"
+
+[deps]
+
+source_file="res://texture_pack/Sound/Menu_Sound_Forward.wav"
+dest_files=[ "res://.import/Menu_Sound_Forward.wav-0a35c6f5640d5aecfdc3a1db1f7aa343.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
