@@ -9,7 +9,8 @@ var velocity = Vector2()
 var state
 var anim
 var new_anim
-
+signal score
+var count_melon=0
 func _ready():
 	$Run.hide()
 	$Idle.show()
@@ -87,3 +88,21 @@ func _physics_process(delta):
 	if state == JUMP:
 		if is_on_floor():
 			change_state(IDLE)
+
+func up():
+	count_melon+=1
+	emit_signal("score",count_melon)
+func _on_Melon_tooken():
+	up()
+
+
+func _on_Melon2_tooken():
+	up()
+
+
+func _on_Melon3_tooken():
+	up()
+
+
+func _on_KinematicBody2D_score():
+	pass # Replace with function body.

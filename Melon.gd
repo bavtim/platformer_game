@@ -1,5 +1,5 @@
 extends Area2D
-
+signal tooken
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -17,3 +17,11 @@ func _process(delta):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+
+func _on_Melon_body_entered(body):
+	if(body.get_name() == "KinematicBody2D"):
+		hide()  
+		emit_signal("tooken")
+		$CollisionShape2D.set_deferred("disabled", true)
+		$AnimationPlayer.stop()
