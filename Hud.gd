@@ -17,4 +17,4 @@ func _ready():
 
 
 func _on_KinematicBody2D_score(score):
-	$MarginContainer/Label.text = "Count melon : "+str(score)
+	$Label.text = "Count melon : "+str(score)

@@ -20,6 +20,7 @@ func _process(delta):
 
 
 func _on_Melon_body_entered(body):
+	print(body.get_name())
 	if(body.get_name() == "KinematicBody2D"):
 		hide()  
 		emit_signal("tooken")

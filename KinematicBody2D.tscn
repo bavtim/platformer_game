@@ -120,3 +120,6 @@ anims/RESET = SubResource( 4 )
 anims/idle = SubResource( 5 )
 anims/jump = SubResource( 6 )
 anims/run = SubResource( 7 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
