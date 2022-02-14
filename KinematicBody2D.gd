@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var run_speed=300
 var jump_speed=500
-var gravity=700
+var gravity=600
 
 enum {IDLE, RUN, JUMP}
 var velocity = Vector2()
@@ -10,6 +10,7 @@ var state
 var anim
 var new_anim
 signal score
+signal kill
 var count_melon=0
 func _ready():
 	$Run.hide()
@@ -88,6 +89,12 @@ func _physics_process(delta):
 	if state == JUMP:
 		if is_on_floor():
 			change_state(IDLE)
+	var killer = get_node("Checker").get_overlapping_bodies()
+	if (killer.size()!=0):
+		for subbody in killer:
+			if (subbody in get_tree().get_nodes_in_group("Deadzone")):
+				$AudioStreamPlayer2D.play()
+				emit_signal("kill")
 
 func up():
 	count_melon+=1
