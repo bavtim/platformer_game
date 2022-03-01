@@ -91,6 +91,21 @@ func _physics_process(delta):
 			change_state(IDLE)
 	var killer = get_node("Checker").get_overlapping_bodies()
 	if (killer.size()!=0):
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		for subbody in killer:
 			if (subbody in get_tree().get_nodes_in_group("Deadzone")):
 				$AudioStreamPlayer2D.play()
